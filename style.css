@@ -1,0 +1,12 @@
+:root { --paper: #F3EEE2; --ink: #2E2E30; --pale: #B9B6AE; --seal: #C8452F; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 "Songti SC", "Noto Serif SC", Georgia, serif; }
+main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+h1 { font-size: 34px; margin: 0 0 4px; }
+h2 { font-size: 22px; margin: 36px 0 8px; border-top: 1px solid var(--pale); padding-top: 24px; }
+.sub { color: #6b6a66; margin: 0 0 24px; }
+a { color: var(--seal); }
+nav { margin-bottom: 32px; font-size: 15px; }
+nav a { margin-right: 16px; }
+ul { padding-left: 20px; }
+footer { margin-top: 48px; font-size: 14px; color: #6b6a66; }
